@@ -1,0 +1,12 @@
+div{
+    background-color: #F00;
+    border-style: solid;
+    border-color: #0F0;
+    margin: 5px;
+    max-width: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: row;
+}
