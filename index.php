@@ -8,7 +8,20 @@
 </head>
 <body>
     <?php
-        echo "ciao mondo!";
+        //assegno un valore alla variabile
+        $testo = "ciao mondo!<br>";
+
+        //stampo il contenuto della variabile
+        echo $testo;
+        /*
+        questo commento
+        può occupare più righe
+        */
+
+        //stampo 10 volte il contenuto della variabile
+        for ($i = 0; $i < 10; $i = $i + 1) {
+            echo $testo;
+        }
     ?>
 </body>
 </html>
