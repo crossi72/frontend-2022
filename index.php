@@ -9,19 +9,37 @@
 <body>
     <?php
         //assegno un valore alla variabile
-        $testo = "ciao mondo!<br>";
+        $valore = -5;
 
-        //stampo il contenuto della variabile
-        echo $testo;
-        /*
-        questo commento
-        può occupare più righe
-        */
+        echo "il valore assoluto di ". $valore;
 
-        //stampo 10 volte il contenuto della variabile
-        for ($i = 0; $i < 10; $i = $i + 1) {
-            echo $testo;
-        }
+        //stampo il risultato della funzione
+        $valore = valore_assoluto($valore);
+        echo " è " . $valore . "<br>";
+
+        //assegno un valore alla variabile
+        $nuovo_valore = -7;
+
+        //stampo il risultato della funzione
+        $valore = valore_assoluto($nuovo_valore);
+        echo " è " . $valore;
+
     ?>
 </body>
 </html>
+
+<?php
+
+        function valore_assoluto($numero){
+            //se il valore è negativo, lo moltiplico per -1
+            //altrimenti lo restituisco senza modificarlo
+            if ($numero < 0){
+                $risultato = $numero * -1;
+            } else {
+                $risultato = $numero;
+            }
+
+            return $risultato;
+        }
+
+?>
