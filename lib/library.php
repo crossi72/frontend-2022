@@ -34,4 +34,15 @@
         </head>
         <?php
     }
+
+    function ripeti($numero, $testo){
+        //apro il paragrafo
+        echo "<p>";
+        //ciclo per stampare $numero volte il contenuto di $testo
+        for ($i = 0; $i < $numero; $i++){
+            echo $testo . "<br>";
+        }
+        //chiudo il paragrafo
+        echo "</p>";
+    }
 ?>

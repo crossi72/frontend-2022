@@ -11,14 +11,10 @@ include("lib/library.php");
 ?>
 <body>
     <?php
-        //assegno un valore alla variabile
-        $valore = -5;
-
-        echo "il valore assoluto di ". $valore;
-
-        //stampo il risultato della funzione
-        $valore = valore_assoluto($valore);
-        echo " è " . $valore . "<br>";
+        //stampo una stringa più volte
+        ripeti(5, "ciao mondo!");
+        ripeti(10, "testo di prova");
+        ripeti(3, "testo di chiusura");
     ?>
 </body>
 </html>
