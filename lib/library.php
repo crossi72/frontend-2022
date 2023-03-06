@@ -60,4 +60,16 @@
             }
         }
     }
+
+    function stampa_array($valori){
+        //ciclo sugli elementi dell'array e creo un DIV per ogni elemento
+        for($i = 0; $i < count($valori); $i++){
+            //apro il div
+            echo "<div>";
+            //stampo il valore corrente
+            echo $valori[$i];
+            //chiudo il div
+            echo "</div>";
+        }
+    }
 ?>
