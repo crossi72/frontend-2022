@@ -14,7 +14,7 @@ include("lib/library.php");
 <body>
     <?php
         //stampo una stringa più volte
-        crea_div("Ciao Mondo!", 20, "evidente");
+        crea_div("Ciao Mondo!", 20, "evidente", "alternata");
     ?>
 </body>
 </html>

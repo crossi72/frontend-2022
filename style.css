@@ -1,9 +1,12 @@
-/* deve contenere una regola che imposta 
-bordo nero, sfondo blu, primo piano bianco
-per gli elementi con classe evidente */
 .evidente{
     border-style: solid;
     border-color: #000;
     color: #FFF;
     background-color: #00F;
+}
+.alternata{
+    border-style: solid;
+    border-color: #02541d;
+    color: #00F;
+    background-color: rgb(252, 130, 0);
 }

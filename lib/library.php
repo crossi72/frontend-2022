@@ -46,11 +46,18 @@
         echo "</p>";
     }
 
-    function crea_div($text, $divs, $class){
+    function crea_div($text, $divs, $class, $class2){
         //ciclo per stampare i DIV $divs volte
         for($i = 0; $i < $divs; $i++){
-            //stampo il DIV corrente
-            stampa_div($class, $text);
+            //se l'indice del ciclo è pari, stampo DIV con $class
+            //altrimenti stampo DIV con $class2
+            if($i % 2 == 0){
+                //pari
+                stampa_div($class, $text);
+            } else {
+                //dispari
+                stampa_div($class2, $text);
+            }
         }
     }
 ?>
