@@ -1,7 +1,9 @@
-div{
-    background-color: #F00;
+/* deve contenere una regola che imposta 
+bordo nero, sfondo blu, primo piano bianco
+per gli elementi con classe evidente */
+.evidente{
     border-style: solid;
-    border-color: #0F0;
-    margin: 5px;
-    max-width: 50px;
+    border-color: #000;
+    color: #FFF;
+    background-color: #00F;
 }

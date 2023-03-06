@@ -1,20 +1,20 @@
 <?php
-
 include("lib/library.php");
-
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
-<?php
-    print_html_header();
-?>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
     <?php
         //stampo una stringa più volte
-        ripeti(5, "ciao mondo!");
-        ripeti(10, "testo di prova");
-        ripeti(3, "testo di chiusura");
+        crea_div("Ciao Mondo!", 20, "evidente");
     ?>
 </body>
 </html>

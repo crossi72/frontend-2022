@@ -45,4 +45,12 @@
         //chiudo il paragrafo
         echo "</p>";
     }
+
+    function crea_div($text, $divs, $class){
+        //ciclo per stampare i DIV $divs volte
+        for($i = 0; $i < $divs; $i++){
+            //stampo il DIV corrente
+            stampa_div($class, $text);
+        }
+    }
 ?>
