@@ -13,6 +13,7 @@
 <body>
     <?php
         $primo_array = ["ciao", "mondo", "ora", "so", "usare", "gli", "array"];
+        $classi = ["cl1", "cl2", "cl3", "cl4", "cl5", "cl6", "cl7"];
 
         // echo "l'array contiene " . count($primo_array) . " elementi<br>";
         // echo "il primo elemento è " . $primo_array[0] . "<br>";
@@ -25,6 +26,7 @@
         // }
 
         stampa_array($primo_array);
+        stampa_doppio_array($classi, $primo_array);
     ?>
 </body>
 </html>

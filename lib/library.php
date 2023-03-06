@@ -62,14 +62,28 @@
     }
 
     function stampa_array($valori){
-        //ciclo sugli elementi dell'array e creo un DIV per ogni elemento
-        for($i = 0; $i < count($valori); $i++){
+        foreach($valori as $valore_corrente){
             //apro il div
             echo "<div>";
             //stampo il valore corrente
-            echo $valori[$i];
+            echo $valore_corrente;
             //chiudo il div
             echo "</div>";
+        }
+    }
+
+    function stampa_doppio_array($classi, $contenuti){
+        //verifico se gli array hanno la stessa dimensione
+        if (count($classi) != count($contenuti)){
+            //errore: gli array non hanno la stessa dimensione
+            echo "Errore: gli array non hanno la stessa dimensione!";
+        } else {
+            //gli array hanno la stessa dimensione
+            //ciclo sugli array per costruire i div
+            for($i = 0; $i < count($classi); $i++){
+                //per ogni elemento creo un DIV con classe e contenuto presi dagli array
+                stampa_div($classi[$i], $contenuti[$i]);
+            }
         }
     }
 ?>
