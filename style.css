@@ -10,3 +10,24 @@
     color: #00F;
     background-color: rgb(252, 130, 0);
 }
+.div{
+    background-color: lightsalmon;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+
+.blu{
+    background-color: lightblue;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.rosso{
+    background-color: #F00;
+}
+
+.verde{
+    background-color: #0F0;
+}
