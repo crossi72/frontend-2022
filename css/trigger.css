@@ -1,0 +1,11 @@
+.importante{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    margin: 10px;
+}
+
+.bg-blu{
+    background-color: #00F;
+    color: #FFF;
+}
